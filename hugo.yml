@@ -1,0 +1,40 @@
+baseURL: "/"
+languageCode: "en-us"
+title: "Stage of Paige"
+theme: "PaperMod"
+
+params: 
+    homeInfoParams:
+       Title: "Hello" 
+       Content: This is all Mary.
+    socialIcons:
+        - name: facebook
+          url: "https://facebook.com" 
+        - name: youtube
+          url: "https://www.youtube.com/channel/UCuqxAxniSmBoOTgZPH9jshw/posts?pvf=CAE%253D"   
+    
+    cover:
+        linkFullImages: true
+
+    ShowBreadCrumbs: true
+
+    ShowReadingTime: true
+
+    ShowShareButtons: true
+
+    ShowPostNavLinks: true
+
+menu:
+    main: 
+        - identifier: categories
+          name: Categories
+          url: /categories/
+          weight: 10
+        - identifier: tags
+          name: Tags
+          url: /tags/
+          weight: 20
+        - identifier: archives
+          name: Archives
+          url: /archives/
+          weight: 30
