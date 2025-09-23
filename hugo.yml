@@ -1,4 +1,4 @@
-baseURL: "/"
+baseURL: "https://stageofpaige.netlify.app"
 languageCode: "en-us"
 title: "Stage of Paige"
 theme: "PaperMod"
